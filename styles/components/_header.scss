@@ -1,0 +1,87 @@
+// Header
+@import '../helpers/mixins';
+@import '../base/colors';
+
+.header-section {
+  padding: 30px;
+  display: block;
+}
+
+.logo {
+  float: left;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid;
+  border-color: #667;
+}
+
+.logo p {
+  color: $text-primary;
+  text-align: center;
+  @include vertical-align();
+}
+
+.nav-desktop {
+  float: right;
+}
+
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: #000;
+}
+
+.nav-mobile--expanded .mobile-menu {
+  display: block;
+}
+
+.mobile-menu .nav-item {
+  width: 100%;
+  display: block;
+}
+
+.nav-item {
+  margin: 10px;
+  color: $link-primary;
+}
+
+.hamburger {
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color: $text-primary;
+  border:0;
+  font-size:1.4em;
+  font-weight:700;
+  cursor:pointer;
+  outline:none;
+}
+
+.mobile-menu__close {
+  margin: 10px;
+  float: right;
+  color: $link-primary;
+}
+
+@media screen and (max-width: 767px) {
+  .header-section {
+    padding: 10px;
+  }
+
+  .nav-desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav-mobile {
+    display: none;
+  }
+}

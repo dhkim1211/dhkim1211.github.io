@@ -1,0 +1,26 @@
+// Buttons
+
+.btn {
+  border: 1px solid #eee;
+}
+
+.btn-circle {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.428571429;
+  border-radius: 20px;
+}
+
+.btn--white {
+  background-color: #fff;
+  color: #333;
+}
+
+.btn--yellow {
+  background-color: #fc0;
+  color: #fff;
+}

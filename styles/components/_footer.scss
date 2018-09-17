@@ -1,0 +1,22 @@
+@import '../base/colors';
+
+.footer-section {
+  padding: 20px;
+  border-top: 1px solid #eee;
+}
+
+.footer-item {
+  color: #000;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-section {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-menu-right .footer-item {
+    float: right;
+  }
+}

@@ -1,0 +1,217 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Abril Fatface", serif; }
+
+p, a {
+  font-family: "Open Sans", sans-serif; }
+
+.serif {
+  font-family: "Abril Fatface", serif; }
+
+.container, .container-fluid {
+  padding: 0; }
+
+.footer-section {
+  padding: 20px;
+  border-top: 1px solid #eee; }
+
+.footer-item {
+  color: #000; }
+
+@media screen and (max-width: 767px) {
+  .footer-section {
+    text-align: center; } }
+@media screen and (min-width: 768px) {
+  .footer-menu-right .footer-item {
+    float: right; } }
+.header-section {
+  padding: 30px;
+  display: block; }
+
+.logo {
+  float: left;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid;
+  border-color: #667; }
+
+.logo p {
+  color: #333;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.nav-desktop {
+  float: right; }
+
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: #000; }
+
+.nav-mobile--expanded .mobile-menu {
+  display: block; }
+
+.mobile-menu .nav-item {
+  width: 100%;
+  display: block; }
+
+.nav-item {
+  margin: 10px;
+  color: #fff; }
+
+.hamburger {
+  background: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 45px;
+  padding: 5px 15px 0px 15px;
+  color: #333;
+  border: 0;
+  font-size: 1.4em;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none; }
+
+.mobile-menu__close {
+  margin: 10px;
+  float: right;
+  color: #fff; }
+
+@media screen and (max-width: 767px) {
+  .header-section {
+    padding: 10px; }
+
+  .nav-desktop {
+    display: none; } }
+@media screen and (min-width: 768px) {
+  .nav-mobile {
+    display: none; } }
+.btn {
+  border: 1px solid #eee; }
+
+.btn-circle {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.428571429;
+  border-radius: 20px; }
+
+.btn--white {
+  background-color: #fff;
+  color: #333; }
+
+.btn--yellow {
+  background-color: #fc0;
+  color: #fff; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Abril Fatface", serif; }
+
+p, a {
+  font-family: "Open Sans", sans-serif; }
+
+.serif {
+  font-family: "Abril Fatface", serif; }
+
+.cover-section {
+  background-image: url("../assets/images/homemade-lip-balm_4460x4460.jpg");
+  background-size: cover;
+  padding: 0 15px;
+  width: 100vw;
+  height: 100vh; }
+
+.cover-section__text-block {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  top: calc(50% - 30px); }
+
+.site-header {
+  clear: both;
+  text-align: center; }
+
+.site-subheader {
+  text-align: center; }
+
+.about-section {
+  text-align: center;
+  padding: 30px; }
+
+.about-section__column {
+  margin: 20px 0; }
+
+.about-section__column-header {
+  font-size: 20px;
+  font-weight: 700; }
+
+.featured-product-section {
+  padding: 40px; }
+
+.featured-product-section__header {
+  font-size: 20px;
+  font-weight: 700; }
+
+.featured-product-section__image {
+  width: 100%; }
+
+.featured-product-section--gray-bg {
+  background-color: #eee; }
+
+.banner-section {
+  background-image: url("../assets/images/homemade-lip-balm_4460x4460.jpg");
+  background-size: cover;
+  padding: 0 15px;
+  width: 100%;
+  height: 300px;
+  text-align: center; }
+
+.banner-section__text-block {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.banner-section__header {
+  font-size: 20px;
+  font-weight: 700; }
+
+.contact-section {
+  padding: 40px;
+  text-align: center; }
+
+.contact-section form {
+  margin: 0 auto;
+  max-width: 760px; }
+
+.contact-section__header {
+  font-size: 20px;
+  font-weight: 700; }
+
+.contact-section .form-row {
+  padding: 0 5px 0 0; }
+
+.first-name {
+  margin: 0 5px; }
+
+@media screen and (max-width: 767px) {
+  .featured-product-section__text-block {
+    order: 1; }
+
+  .featured-product-section__img {
+    order: 2; } }
+
+/*# sourceMappingURL=main.css.map */
